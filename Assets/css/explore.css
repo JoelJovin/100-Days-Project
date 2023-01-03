@@ -202,6 +202,18 @@ span {
 h3 {
     margin: 0;
 }
+@media only screen and (max-width:600px) {
+    footer{
+        width: 1400px;
+     } 
+    header {
+        width: 1400px;
+    }
+    #Content {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 footer {
     display: flex;

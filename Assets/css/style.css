@@ -187,6 +187,24 @@ footer {
 
 }
 
+@media only screen and (max-width:600px){
+ footer{
+    width: 1000px;
+ } 
+ #all {
+    width: 1000px;
+ }
+header {
+    width: 1000px;
+}
+#login{
+    position: relative;
+    left: 220px;
+    bottom: 25px;
+}
+
+}
+
 footer p {
     margin-top: 250px;
 }
